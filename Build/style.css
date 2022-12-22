@@ -1,0 +1,129 @@
+
+body {
+    text-align: center;
+    height: 100vh;
+    width: 80vw;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 28px;
+    font-size: 15px;
+}
+
+nav .external {
+    background-color: rgba(255, 255, 255, 0);
+    min-width: 150px;
+    border-color: lightgray;
+    border-radius: 6px;
+    font-size: 20px;
+}
+
+nav .external:focus {
+    border: 5px solid rgba(255, 204, 255, 0.3)
+}
+
+nav .internal {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    font-size: 20px;
+}
+
+nav .internal:focus {
+    background-color: rgba(242, 242, 242, 0.6);
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin-right: 1em;
+}
+
+header {
+    font-size: 20px;
+}
+
+header ul li:not(:first-child) {
+    color: red;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+main {
+    height: 80%;
+    width: 100%;
+    margin-top: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+main .card-container {
+    width: 23%;
+    height: 45%;
+}
+
+main .card-container .card {
+    width: 100%;
+    height: 80%;
+}
+
+main .card-container .card img {
+    width: 100%;
+    height: 100%;
+}
+
+main .card-container .info {
+    width: 100%;
+    height: 20%;
+    position: relative;
+   
+}
+
+main .card-container .info .info-start {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 25%;
+    left: 0;
+}
+
+main .card-container .info .info-start .logo {
+    font-size: 30px;
+    margin-right: 0.2em;
+}
+
+main .card-container .info .info-start .author {
+    margin-right: 0.5em;
+}
+
+main .card-container .info .info-start .pro {
+    margin-right: 5em;
+    background-color: lightgrey;
+    border-radius: 2px;
+    color: white;
+}
+
+main .card-container .info .info-end {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: absolute;
+    top: 25%;
+    right: 0;
+}
+
+main .card-container .info .info-end .preferences {
+    margin-right: 0.5em;
+}

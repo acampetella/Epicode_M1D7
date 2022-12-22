@@ -1,0 +1,45 @@
+
+
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+header {
+    height: 20%;
+    background-color: #00ffff;
+}
+
+main {
+    height: 55%;
+    display: flex;
+}
+
+main nav {
+    width: 20%;
+    height: 100%;
+    background-color: #ff9900;
+}
+
+main article {
+    width: 50%;
+    height: 100%;
+    background-color: #cccc00;
+}
+
+main aside {
+    width: 30%;
+    height: 100%;
+    background-color: #ffff80;
+}
+
+footer {
+    height: 25%;
+    background-color: #33cccc;
+}
+
+.flex {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 2em;
+}
